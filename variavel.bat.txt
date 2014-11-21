@@ -1,0 +1,2 @@
+rem atribui resultado de comando a variavel
+call pwd > tmp.txt & set /p pasta= < tmp.txt & choco install elastic -source %pasta%
