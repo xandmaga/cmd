@@ -1,0 +1,1 @@
+comandor: git log --after="2015-2-3" --pretty=format:"%s" acao: filtra por data e formata com titulo 
