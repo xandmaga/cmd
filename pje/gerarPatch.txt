@@ -1,0 +1,1 @@
+mvn -e package -Dproject.version="teste_pje_1.7.1.6_patch9_TJMG_"  -DbuildNumber="20160523" -DskipTests -Dmaven.test.skip=true -P artifactory,jcr-storage,pjesup,node1

@@ -1,0 +1,1 @@
+ find /C/Users/t0085324/.m2/repository  -name "*-sources.jar" -exec zipgrep -i "assinatura.*cancelada" '{}' \;
